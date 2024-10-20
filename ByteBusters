@@ -188,3 +188,33 @@ lstm_predictions = lstm_model.predict(X_test_reshaped)
 # Evaluate the LSTM model
 lstm_mse = mean_squared_error(y_test, lstm_predictions)
 print(f'LSTM Mean Squared Error: {lstm_mse}')
+
+# FINAL OUTPUTS
+
+
+Mean Squared Error: 121.23986823773522
+
+
+
+Epoch 1/10
+1720/1720 ━━━━━━━━━━━━━━━━━━━━ 10s 3ms/step - loss: 26884068.0000
+Epoch 2/10
+1720/1720 ━━━━━━━━━━━━━━━━━━━━ 6s 3ms/step - loss: 26519544.0000
+Epoch 3/10
+1720/1720 ━━━━━━━━━━━━━━━━━━━━ 5s 3ms/step - loss: 25831444.0000
+Epoch 4/10
+1720/1720 ━━━━━━━━━━━━━━━━━━━━ 4s 3ms/step - loss: 25753988.0000
+Epoch 5/10
+1720/1720 ━━━━━━━━━━━━━━━━━━━━ 6s 3ms/step - loss: 25355072.0000
+Epoch 6/10
+1720/1720 ━━━━━━━━━━━━━━━━━━━━ 9s 3ms/step - loss: 25117218.0000
+Epoch 7/10
+1720/1720 ━━━━━━━━━━━━━━━━━━━━ 6s 3ms/step - loss: 24719496.0000
+Epoch 8/10
+1720/1720 ━━━━━━━━━━━━━━━━━━━━ 5s 3ms/step - loss: 24337110.0000
+Epoch 9/10
+1720/1720 ━━━━━━━━━━━━━━━━━━━━ 6s 3ms/step - loss: 23742852.0000
+Epoch 10/10
+1720/1720 ━━━━━━━━━━━━━━━━━━━━ 5s 3ms/step - loss: 23426134.0000
+430/430 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step
+LSTM Mean Squared Error: 18874133.347266633
